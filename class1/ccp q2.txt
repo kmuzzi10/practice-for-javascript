@@ -1,0 +1,13 @@
+The best scheduling algorithm for both the teams in this case would be the Round Robin scheduling algorithm.
+
+Round Robin scheduling algorithm is a preemptive algorithm which assigns CPU time to each process in a circular order. It is the most widely used algorithm as it allows process of equal priority to have equal CPU time. In this competition, the chefs of both team X and Y can have equal access to the oven.
+
+Decision Mode: In Round Robin scheduling algorithm, decision making is based on time slices. This means that the chefs can be assigned to the oven in a round-robin fashion, with each chef getting a fixed time slice to cook their dish. 
+
+Throughput: The throughput of the Round Robin scheduling algorithm is high and all the chefs will get a chance to cook their dish within the allocated time.
+
+Response Time: The response time of the Round Robin scheduling algorithm is low as the chefs will not have to wait for long before they get access to the oven.
+
+Effect On Process: The Round Robin scheduling algorithm is a preemptive algorithm, so a chef may have to stop cooking their dish and wait for their turn if another chef’s time slice is over.
+
+Starvation: The Round Robin scheduling algorithm
