@@ -54,7 +54,57 @@
 // }
 
 //q6
-//yet to done
+
+// var cel = prompt("enter temprature in celcius")
+// var far = prompt("enter temprature in farenhiet")
+
+// document.write(cel+"celcius = "+(far-32)*5/9+" <sup>O</sup>F")
+// document.write("<br>")
+// document.write(far+"farienhiet = "+(cel*9/5)+32+" <sup>O</sup>C")
+
+//q7
+
+// document.write("<h1>SHOPPING CART</h1>")
+// document.write("<br>")
+// document.write("<br>")
+
+// var price1 = 200
+// var item1 = prompt("enter quantity of item 1")
+// var i_1 = price1*item1
+// var price2 = 400
+// var item2 = prompt("enter quantity of item 2")
+// var i_2 = price2*item2
+// var ship = 150
+// var total = i_1+i_2+ship
+// document.write("price of item1 = "+price1)
+// document.write("<br>")
+// document.write("quantity of item1 = "+item1)
+// document.write("<br>")
+// document.write("price of item2 is = "+price2)
+// document.write("<br>")
+// document.write("quantity of item2 is = "+item2)
+// document.write("<br>")
+// document.write("<br>")
+// document.write("shipping charges = "+ship)
+// document.write("<br>")
+// document.write("total amount = "+total)
+
+//q8
+
+// var totalMarks = 1200
+// var obtainMarks = prompt("enter obtain marks")
+// var percentage = (obtainMarks*100)/totalMarks
+// document.write("total number = "+totalMarks)
+// document.write("<br>")
+// document.write("obtain marks = "+obtainMarks)
+// document.write("<br>")
+// document.write("percentage = "+percentage)
+
+//q9
+
+
+
+
 
 
 
