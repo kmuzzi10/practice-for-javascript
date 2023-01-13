@@ -103,6 +103,106 @@
 //q9
 
 
+// document.write("<h1><b>CURRENCY IN PKR</b></h1>")
+// document.write("<br>")
+// document.write("<br>")
+// document.write("<br>")
+// var usd = prompt("enter currency in usd")
+// var riyal = prompt("enter currency in pkr")
+// var usdtopkr = usd*228
+// var riyaltopkr = riyal*60
+// total = usdtopkr+riyaltopkr
+// document.write("total amount of usd and riyal in pakistani currency is = "+total)
+
+//q10
+
+// var a = 0, b = ((a+5)*10)/2
+// alert(b)
+
+//q11
+
+// document.write("<h1>AGE CALCULATOR</h1>")
+// document.write("<br>")
+
+// document.write("<br>")
+// var cyear = prompt("enter your current year")
+// var dob = prompt("enter year of your birth")
+// var c = cyear - dob
+// var d = c-1
+// document.write("they are either "+d+" or "+c+"years old")
+
+//q12
+
+// document.write("<h1>The Geometrizer:</h1>")
+// document.write("<br>")
+// document.write("<br>")
+
+// var radius = prompt("enter radius of a circle")
+// var circum = 2*3.14*radius
+// var area = 3.14*radius*radius
+// document.write("radius of a circle is = "+radius)
+// document.write("<br>")
+// document.write("circumference of a circle is = "+circum)
+// document.write("<br>")
+// document.write("area of a circle is = "+area)
+
+//q13
+
+// var a = 10
+// document.write("the value of a is = "+a)
+// document.write("<br>")
+// document.write("<br>")
+// ++a
+// document.write("the value of ++a is = "+a)
+// document.write("<br>")
+// document.write("now the value of a is = "+a)
+// document.write("<br>")
+// document.write("<br>")
+// document.write("the value of a++ is = "+a)
+// document.write("<br>")
+// a++
+// document.write("the value of a++ is = "+a)
+// document.write("<br>")
+// document.write("<br>")
+// --a
+// document.write("the value of --a is = "+a)
+// document.write("<br>")
+// document.write("the value of a is = "+a)
+// document.write("<br>")
+// document.write("<br>")
+// document.write("the value of a-- is = "+a)
+// document.write("<br>")
+// a--
+// document.write("the value of a is = "+a)
+
+//q14
+
+// var favoriteSNacks = "oreao"
+// var currentAge = 15
+// var estimateAge = 85
+// var amount = 2
+// var result = (365*amount)*75
+// document.write("<h1>LIFE TIME SUPPLY CALCULATOR</h1>")
+// document.write("<br>")
+// document.write("<br>")
+// document.write("favorite snacks = "+favoriteSNacks)
+// document.write("<br>")
+// document.write("current age = "+currentAge)
+// document.write("<br>")
+// document.write("estimated age  = "+estimateAge)
+// document.write("<br>")
+// document.write("a,ount of snacks per day = "+amount)
+
+// document.write("<br>")
+// document.write("<br>")
+// document.write("you will need "+result+" "+favoriteSNacks+" to last you until the riped of age "+currentAge)
+
+
+
+
+
+
+
 
 
 
