@@ -79,7 +79,10 @@
 //     document.getElementById("onn").src=imgoff
 // }
 
-
+// function showImage(){
+//     var imgab = 'https://www.audi.com.pk/dam/nemo/sea/pk/new-homepage/2021/02/730x730-RS-e-tron-GT.jpg?imwidth=471'
+//     document.getElementById('abc').src=imgab
+// }
 
 
 
