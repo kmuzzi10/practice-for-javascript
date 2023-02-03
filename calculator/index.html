@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="display">
+            <input id="inp" disabled type="text">
+        </div>
+        <div class="bmain">
+            <div class="extra">
+                <button onclick= "del()" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;" >del</button>
+                <button onclick= "clr()" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">clr</button>
+            </div>
+        <div class="button1">
+            <button onclick="display(7)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">7</button>
+            <button onclick="display(8)"  style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">8</button>
+            <button onclick="display(9)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">9</button>
+            <button onclick="dsisplay('/')" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">/</button>
+        </div>
+        <div class="button2">
+            <button onclick="display(4)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">4</button>
+            <button onclick="display(5)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">5</button>
+            <button onclick="display(6)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">6</button>
+            <button onclick="display('*')" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">x</button>
+        </div>
+        <div class="button3">
+            <button onclick="display(1)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">1</button>
+            <button onclick="display(2)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">2</button>
+            <button onclick="display(3)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">3</button>
+            <button onclick="display('-')" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">-</button>
+        </div>
+        <div class="button4">
+            <button onclick="display(0)" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">0</button>
+            <button onclick="display('.')" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">.</button>
+            <button onclick="display('+')" style="background-color: white;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">+</button>
+            <button onclick="calculations()" style="background-color: orange;color: black;border: 2px;border-radius: 8px;height: 30px;width: 30px;">=</button>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
