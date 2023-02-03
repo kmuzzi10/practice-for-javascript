@@ -35,11 +35,19 @@
 var arr = []
 
 var a=4
-for(let i = 0 ;i<a;i++){
-    if(i==0)
-    arr[a] = prompt('enter 5 values')
-    }
-    for(let i =0;i<arr.length;i++){
-        document.write(arr[a])
-    }
+document.write('first <br>')
 
+for(let i = 0 ;i<a;i++){
+    
+    arr[a] = prompt('enter 5 values')
+    
+    // for(let j =0;j<arr.length;j++){
+        
+        document.write(arr[a])
+    // }
+}
+var b = prompt('which color want to add in last')
+var arr = arr.push(b)
+for(var i = 0 ;i<arr.length;i++){
+    document.write(arr[])
+}
